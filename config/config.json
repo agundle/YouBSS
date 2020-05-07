@@ -1,0 +1,45 @@
+{
+  "development": {
+    "username": "root",
+    "password": "youbang!",
+    "database": "youbang2",
+    "host": "15.164.162.41",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "supportBigNumbers": true
+    },
+    "logging": false,
+    "logQueryParameters": false,
+    "benchmark": false,
+    "pool": {
+      "max": 10,
+      "min": 0,
+      "idle": 1000,
+      "acquire": 10000
+    },
+    "operatorsAliases": false,
+    "timezone": "+09:00"
+  },
+  "test": {
+    "username": "root",
+    "password": "youbang!",
+    "database": "youbang2",
+    "host": "15.164.162.41",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "supportBigNumbers": true
+    },
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": "youbang!",
+    "database": "youbang2",
+    "host": "15.164.162.41",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "supportBigNumbers": true
+    },
+    "operatorsAliases": false
+  }
+}

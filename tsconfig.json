@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    /* Basic Options */
+    //
+    "target": "es6",
+    /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
+    "module": "commonjs",
+    "esModuleInterop": true,
+    //import * as express from 'express' => error
+
+    //"lib": [
+    //  "es2015"
+    //],  // 테스트 시 console에서 컴파일 에러 발생
+
+    /* Specify library files to be included in the compilation. */
+    "outDir": "dist",
+    /* Redirect output structure to the directory. */
+    "strict": true,
+    /* Enable all strict type-checking options. */
+    "moduleResolution": "node",
+    /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
+    "typeRoots": [
+      "./node_modules/@types",
+      "./@types"
+    ],
+    "allowJs": true,
+    /* List of folders to include type definitions from. */
+    "noImplicitAny": true,
+    "alwaysStrict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.js"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "youbss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "eosjs": "^20.0.3",
+    "eosjs-api": "^7.0.4",
+    "mysql2": "^2.1.0",
+    "node-cron": "^2.0.3",
+    "sequelize": "^5.21.7"
+  }
+}
